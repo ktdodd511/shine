@@ -49,7 +49,6 @@ GEM
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.14.3, < 2)
       sassc-rails (>= 2.0.0)
-    bower-rails (0.11.0)
     builder (3.2.3)
     byebug (11.0.1)
     capybara (3.16.0)
@@ -79,6 +78,8 @@ GEM
       warden (~> 1.2.3)
     erubi (1.8.0)
     execjs (2.7.0)
+    faker (1.9.3)
+      i18n (>= 0.7)
     ffi (1.10.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -204,11 +205,11 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap
-  bower-rails
   byebug
   capybara (>= 2.15)
   coffee-rails (~> 4.2)
   devise
+  faker
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
